@@ -27,15 +27,9 @@
 
 ## How it works
 
-
-
 ## Install guide
 
-
-
 ## How to use
-
-Disable the "Container" parent Slash component to leave it in Weapon space, and enable it to reset the "Container" to "ResetTarget".
 
 ## Downloads
 
