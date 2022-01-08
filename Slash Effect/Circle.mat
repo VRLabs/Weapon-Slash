@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Circle
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 557983d166c6ec846ad51d3a6da3eb5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendMode: 2
+    - _ColorStrength: 5
+    - _Culling: 0
+    - _Cutout: 0
+    - _DstBlend: 1
+    - _Falloff: 0
+    - _FlipbookBlending: 0
+    - _InvFade: 3
+    - _IsCutout: 0
+    - _MaxRange: 15
+    - _MinRange: 8
+    - _NearMaxRange: 5
+    - _NearMinRange: 1
+    - _SoftenStr: 0
+    - _Softening: 0
+    - _SrcBlend: 5
+    - _ZT: 2
+    - _ZTest: 0
+    - _ZWriting: 0
+    m_Colors:
+    - _Color: {r: 4, g: 4, b: 4, a: 1}
+    - _TintColor: {r: 3, g: 3, b: 3, a: 1}
