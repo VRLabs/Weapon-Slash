@@ -37,7 +37,7 @@ You can grab the latest version of the Weapon Slash in [Releases](https://github
 
 ## License
 
-Weapon Slash is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Weapon-Slash/blob/dev/LICENSE).
+Weapon Slash is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Weapon-Slash/blob/main/LICENSE).
 
 ## Contact us
 
