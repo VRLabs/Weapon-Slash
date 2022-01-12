@@ -10,19 +10,6 @@
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
   <br />
-  <a href="https://github.com/VRLabs/Weapon-Slash/issues">
-    <img src="https://img.shields.io/github/issues-raw/VRLabs/Weapon-Slash.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Weapon-Slash/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/VRLabs/Weapon-Slash.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Weapon-Slash/pull">
-    <img src="https://img.shields.io/github/issues-pr-raw/VRLabs/Weapon-Slash.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Weapon-Slash/pulls?q=is%3Apr+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/Weapon-Slash.svg?style=flat-square">
-  </a>
-  <br />
 </div>
 
 ## How it works
