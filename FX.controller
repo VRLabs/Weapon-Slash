@@ -104,7 +104,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Remote.Trigger
+    m_ConditionEvent: WeaponSlash.Remote.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3570059488749016631}
@@ -231,7 +231,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102532411998388964}
@@ -333,7 +333,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102552797795290972}
@@ -467,7 +467,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102331975952552208}
@@ -703,7 +703,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Remote.Trigger
+    m_ConditionEvent: WeaponSlash.Remote.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1488163239312600177}
@@ -827,7 +827,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102861732591415236}
@@ -873,7 +873,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 628810647935495616}
@@ -1078,7 +1078,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102092657179437098}
@@ -1155,7 +1155,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6205844424948417450}
@@ -1356,7 +1356,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102305530347986444}
@@ -1455,55 +1455,55 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: GestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: IsLocal
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: WeaponSlash.Trigger
+    m_Controller: {fileID: 0}
+  - m_Name: WeaponSlash.Slash
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Idle
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: WeaponSlash.Remote.Trigger
+    m_Controller: {fileID: 0}
+  - m_Name: WeaponSlash.Remote.Slash
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Remote.Idle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Sync
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Charge
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Weapon Slash Rotation
@@ -1821,7 +1821,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102861732591415236}
@@ -2467,7 +2467,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102532411998388964}
@@ -2570,7 +2570,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102552797795290972}
@@ -2707,7 +2707,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102305530347986444}
@@ -2757,7 +2757,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102092657179437098}
@@ -3207,7 +3207,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102331975952552208}
@@ -3357,7 +3357,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102428512201494210}
@@ -3844,7 +3844,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102124582821012858}
@@ -4284,7 +4284,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102331975952552208}
@@ -6998,7 +6998,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6205844424948417450}
@@ -7157,7 +7157,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102331975952552208}
@@ -7359,7 +7359,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102124582821012858}
@@ -7582,7 +7582,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: WeaponSlash.Trigger
+    m_ConditionEvent: WeaponSlash.Slash
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102428512201494210}
