@@ -229,7 +229,7 @@ Material:
     - _YWobbleSpeed: 0
     - _YWobbleTiling: 0
     - _ZTest: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _Zoom: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
