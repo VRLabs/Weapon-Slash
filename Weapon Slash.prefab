@@ -2926,6 +2926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7828303285056123553}
+  - component: {fileID: 5791614731709256070}
   m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
@@ -2942,13 +2943,33 @@ Transform:
   m_GameObject: {fileID: 7828303285056123554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10.028144, y: 10.028144, z: 10.028144}
   m_Children:
   - {fileID: 7828303285068300031}
   - {fileID: 8285637181181628154}
   m_Father: {fileID: 700296434613174096}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360610 &5791614731709256070
+ScaleConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828303285056123554}
+  m_Enabled: 1
+  m_Weight: 0
+  m_ScaleAtRest: {x: 1, y: 1, z: 1}
+  m_ScaleOffset: {x: 10, y: 10, z: 10}
+  m_AffectScalingX: 1
+  m_AffectScalingY: 1
+  m_AffectScalingZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 1720321125886419532, guid: 9e56eedc8fc5faf419b72e6abe6b67bc,
+      type: 3}
+    weight: 1
 --- !u!1 &7828303285068300024
 GameObject:
   m_ObjectHideFlags: 0
