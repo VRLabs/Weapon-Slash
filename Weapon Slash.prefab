@@ -3203,8 +3203,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8285637181181628154}
-  - component: {fileID: 8285637181181628155}
+  - component: {fileID: 3560660442136110459}
   - component: {fileID: 7519514791335160868}
+  - component: {fileID: 8285637181181628155}
   m_Layer: 0
   m_Name: Receiver
   m_TagString: Untagged
@@ -3226,8 +3227,8 @@ Transform:
   m_Father: {fileID: 7828303285056123553}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1773428102 &8285637181181628155
-ParentConstraint:
+--- !u!1818360608 &3560660442136110459
+PositionConstraint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3236,24 +3237,13 @@ ParentConstraint:
   m_Enabled: 1
   m_Weight: 1
   m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffsets:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  m_RotationOffsets:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
-  m_AffectRotationX: 1
-  m_AffectRotationY: 1
-  m_AffectRotationZ: 1
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 8285637181181628154}
-    weight: 0
   - sourceTransform: {fileID: 8285637180982748927}
     weight: 1
 --- !u!114 &7519514791335160868
@@ -3283,6 +3273,36 @@ MonoBehaviour:
   parameter: WeaponSlash.Slash
   value: 1
   minVelocity: 0.05
+--- !u!1773428102 &8285637181181628155
+ParentConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285637181181628101}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffsets:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_RotationOffsets:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 8285637181181628154}
+    weight: 1
+  - sourceTransform: {fileID: 8285637180982748927}
+    weight: 0.23
 --- !u!1 &8665136522964127463
 GameObject:
   m_ObjectHideFlags: 0
