@@ -322,7 +322,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Collider
+    path: Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Sender
     classID: 1773428102
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -404,7 +404,7 @@ AnimationClip:
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1528465675
+      path: 2527227559
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1773428102
@@ -737,7 +737,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Collider
+    path: Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Sender
     classID: 1773428102
     script: {fileID: 0}
   m_EulerEditorCurves: []

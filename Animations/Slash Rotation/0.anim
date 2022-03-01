@@ -210,7 +210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Weapon Slash/Armature/Trigger
+    path: Weapon Slash/Armature/Receiver
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -238,7 +238,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Weapon Slash/Armature/Trigger
+    path: Weapon Slash/Armature/Receiver
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -266,7 +266,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Trigger
+    path: Weapon Slash/Armature/Receiver
     classID: 114
     script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
   m_PPtrCurves: []
@@ -320,21 +320,21 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4031099404
+      path: 557761353
       attribute: 15
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4031099404
+      path: 557761353
       attribute: 31
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4031099404
+      path: 557761353
       attribute: 3305885265
       script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
       typeID: 114
@@ -555,7 +555,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Weapon Slash/Armature/Trigger
+    path: Weapon Slash/Armature/Receiver
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -583,7 +583,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Weapon Slash/Armature/Trigger
+    path: Weapon Slash/Armature/Receiver
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -611,7 +611,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Trigger
+    path: Weapon Slash/Armature/Receiver
     classID: 114
     script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
   m_EulerEditorCurves: []

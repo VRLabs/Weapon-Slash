@@ -2943,7 +2943,7 @@ Transform:
   m_GameObject: {fileID: 7828303285056123554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.028144, y: 10.028144, z: 10.028144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7828303285068300031}
   - {fileID: 8285637181181628154}
@@ -3128,7 +3128,7 @@ GameObject:
   - component: {fileID: 2188687026764061247}
   - component: {fileID: 888726008978956306}
   m_Layer: 0
-  m_Name: Collider
+  m_Name: Sender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3206,7 +3206,7 @@ GameObject:
   - component: {fileID: 8285637181181628155}
   - component: {fileID: 7519514791335160868}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: Receiver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
