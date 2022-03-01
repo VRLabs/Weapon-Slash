@@ -2883,8 +2883,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7828303284909194749}
-  m_LocalRotation: {x: -0.010271943, y: 0.0140042165, z: -0.03318303, w: 0.9992984}
-  m_LocalPosition: {x: 0, y: 0.0017389383, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7828303285821860553}
@@ -2900,8 +2900,8 @@ ParentConstraint:
   m_GameObject: {fileID: 7828303284909194749}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0.0017389383, z: 0}
-  m_RotationAtRest: {x: -1.1230726, y: 1.643238, z: -3.819873}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   m_RotationOffsets:
@@ -2973,8 +2973,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7828303285068300024}
-  m_LocalRotation: {x: 0.83760226, y: 0.36424664, z: 0.36424705, w: -0.18185422}
-  m_LocalPosition: {x: 0.091249995, y: 1.0553716, z: 0.021463156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7828303284909194748}
@@ -2990,8 +2990,8 @@ ParentConstraint:
   m_GameObject: {fileID: 7828303285068300024}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 0.091249995, y: 1.0553716, z: 0.021463156}
-  m_RotationAtRest: {x: -34.749836, y: 144.45074, z: 144.4508}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   m_RotationOffsets:
@@ -3031,8 +3031,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7828303285821860554}
-  m_LocalRotation: {x: -0.012373159, y: 0.011202174, z: -0.031431694, w: 0.9993666}
-  m_LocalPosition: {x: 0, y: 0.0019607467, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8285637180982748927}
@@ -3048,8 +3048,8 @@ ParentConstraint:
   m_GameObject: {fileID: 7828303285821860554}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0.0019607467, z: 0}
-  m_RotationAtRest: {x: -1.3767455, y: 1.3279287, z: -3.6188562}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   m_RotationOffsets:
@@ -3104,8 +3104,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8285637180982748927}
-  - component: {fileID: 8285637180982748924}
   - component: {fileID: 2188687026764061247}
+  - component: {fileID: 888726008978956306}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -3120,40 +3120,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8285637180982748926}
-  m_LocalRotation: {x: 0.8067947, y: 0.40444908, z: 0.40444982, w: 0.14806643}
-  m_LocalPosition: {x: -0.53019375, y: 0.49342063, z: -0.54775226}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.14999999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7828303285821860553}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8285637180982748924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8285637180982748926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 216064065, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 0
-  radius: 0.125
-  height: 0.15
-  position: {x: 0.25, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  allowSelf: 1
-  allowOthers: 0
-  collisionMask:
-  - WeaponSlash
-  isReceiver: 0
-  receiverType: 0
-  parameter: 
-  value: 1
-  minVelocity: 0.05
 --- !u!1773428102 &2188687026764061247
 ParentConstraint:
   m_ObjectHideFlags: 0
@@ -3180,6 +3153,26 @@ ParentConstraint:
   m_Sources:
   - sourceTransform: {fileID: 7828303286120369022}
     weight: 1
+--- !u!114 &888726008978956306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285637180982748926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -802764141, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 0.125
+  height: 2
+  position: {x: 0.25, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - WeaponSlash
 --- !u!1 &8285637181181628101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,8 +3182,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8285637181181628154}
-  - component: {fileID: 8285637181181628152}
   - component: {fileID: 8285637181181628155}
+  - component: {fileID: 7519514791335160868}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -3206,39 +3199,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8285637181181628101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000000067055225, y: 0.14999998, z: 0.000000059604645}
+  m_LocalPosition: {x: 0, y: 0.14999999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7828303285056123553}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8285637181181628152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8285637181181628101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 216064065, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 0
-  radius: 0.025
-  height: 2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  allowSelf: 1
-  allowOthers: 0
-  collisionMask:
-  - WeaponSlash
-  isReceiver: 1
-  receiverType: 0
-  parameter: WeaponSlash.Slash
-  value: 1
-  minVelocity: 0
 --- !u!1773428102 &8285637181181628155
 ParentConstraint:
   m_ObjectHideFlags: 0
@@ -3269,6 +3235,33 @@ ParentConstraint:
     weight: 0
   - sourceTransform: {fileID: 8285637180982748927}
     weight: 1
+--- !u!114 &7519514791335160868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285637181181628101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 0.025
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - WeaponSlash
+  allowSelf: 1
+  allowOthers: 0
+  localOnly: 0
+  receiverType: 0
+  parameter: WeaponSlash.Slash
+  value: 1
+  minVelocity: 0.05
 --- !u!1 &8665136522964127463
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,9 +3272,9 @@ GameObject:
   m_Component:
   - component: {fileID: 700296434613174096}
   - component: {fileID: 2825863310393387690}
-  - component: {fileID: 8683462494572654925}
-  - component: {fileID: 8226226315020156359}
   - component: {fileID: 2818474039615429299}
+  - component: {fileID: 8321898531871049535}
+  - component: {fileID: 4982070503610327577}
   m_Layer: 0
   m_Name: Weapon Slash
   m_TagString: Untagged
@@ -3332,60 +3325,6 @@ ParentConstraint:
   m_Sources:
   - sourceTransform: {fileID: 7828303286120369022}
     weight: 1
---- !u!114 &8683462494572654925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8665136522964127463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 216064065, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 0
-  radius: 0.05
-  height: 1
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  allowSelf: 1
-  allowOthers: 0
-  collisionMask:
-  - WeaponSlash.Remote
-  isReceiver: 1
-  receiverType: 0
-  parameter: WeaponSlash.Remote.Slash
-  value: 1
-  minVelocity: 0
---- !u!114 &8226226315020156359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8665136522964127463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 216064065, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 7828303286120369022}
-  shapeType: 0
-  radius: 0.05
-  height: 0.15
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  allowSelf: 1
-  allowOthers: 0
-  collisionMask:
-  - WeaponSlash.Remote
-  isReceiver: 0
-  receiverType: 0
-  parameter: 
-  value: 1
-  minVelocity: 0.05
 --- !u!1818360610 &2818474039615429299
 ScaleConstraint:
   m_ObjectHideFlags: 0
@@ -3406,6 +3345,53 @@ ScaleConstraint:
   - sourceTransform: {fileID: 1720321125886419532, guid: 9e56eedc8fc5faf419b72e6abe6b67bc,
       type: 3}
     weight: 1
+--- !u!114 &8321898531871049535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8665136522964127463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 0.05
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - WeaponSlash.Remote
+  allowSelf: 1
+  allowOthers: 0
+  localOnly: 0
+  receiverType: 0
+  parameter: WeaponSlash.Remote.Slash
+  value: 1
+  minVelocity: 0.05
+--- !u!114 &4982070503610327577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8665136522964127463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -802764141, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 7828303286120369022}
+  shapeType: 0
+  radius: 0.05
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - WeaponSlash.Remote
 --- !u!1 &8815364296954969949
 GameObject:
   m_ObjectHideFlags: 0
