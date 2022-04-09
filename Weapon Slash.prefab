@@ -88,7 +88,7 @@ Transform:
   m_Children:
   - {fileID: 1501619228932244835}
   m_Father: {fileID: 8815364296954969922}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1773428102 &3047426225108898112
 ParentConstraint:
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 1704962920}
   - component: {fileID: 1704962921}
   m_Layer: 0
-  m_Name: Cancel
+  m_Name: Charging
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,7 +203,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8815364296954969922}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1773428102 &1704962921
 ParentConstraint:
@@ -3328,7 +3328,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 0
   parameter: WeaponSlash.Slash
-  value: 1
   minVelocity: 0.05
 --- !u!1773428102 &8285637181181628155
 ParentConstraint:
@@ -3468,7 +3467,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 0
   parameter: WeaponSlash.Remote.Slash
-  value: 1
   minVelocity: 0.05
 --- !u!114 &4982070503610327577
 MonoBehaviour:
@@ -3521,8 +3519,8 @@ Transform:
   - {fileID: 1003158028}
   - {fileID: 1972370751}
   - {fileID: 455017255}
-  - {fileID: 621114039}
   - {fileID: 1704962920}
+  - {fileID: 621114039}
   m_Father: {fileID: 700296434613174096}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
