@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Slash A
+    path: Weapon Slash/Effects/Light Slash/A
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Slash B
+    path: Weapon Slash/Effects/Light Slash/B
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Slash C
+    path: Weapon Slash/Effects/Light Slash/C
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -126,7 +126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Slash A/Particle System
+    path: Weapon Slash/Effects/Light Slash/A/Particle System
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Slash B/Particle System
+    path: Weapon Slash/Effects/Light Slash/B/Particle System
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Slash C/Particle System
+    path: Weapon Slash/Effects/Light Slash/C/Particle System
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -352,7 +352,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Slash A
+    path: Weapon Slash/Effects/Light Slash/A
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -380,7 +380,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Slash B
+    path: Weapon Slash/Effects/Light Slash/B
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -408,7 +408,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Slash C
+    path: Weapon Slash/Effects/Light Slash/C
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -436,7 +436,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Slash A/Particle System
+    path: Weapon Slash/Effects/Light Slash/A/Particle System
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -464,7 +464,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Slash B/Particle System
+    path: Weapon Slash/Effects/Light Slash/B/Particle System
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -492,7 +492,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Slash C/Particle System
+    path: Weapon Slash/Effects/Light Slash/C/Particle System
     classID: 1
     script: {fileID: 0}
   - curve:
