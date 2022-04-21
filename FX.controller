@@ -8900,7 +8900,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
+  - m_ConditionMode: 7
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
