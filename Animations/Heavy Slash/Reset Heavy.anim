@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Strong Heavy Slash
+  m_Name: Reset Heavy
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -41,9 +41,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Weapon Slash/Effects/Heavy Slash/Strong
-    classID: 1773428102
+    attribute: m_IsActive
+    path: Weapon Slash/Effects/Heavy Slash/Strong/Container
+    classID: 1
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -69,9 +69,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Weapon Slash/Effects/Heavy Slash/Strong/Container
-    classID: 1
+    attribute: m_Enabled
+    path: Weapon Slash/Effects/Heavy Slash/Strong
+    classID: 1773428102
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -82,17 +82,17 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1937939627
-      attribute: 3305885265
-      script: {fileID: 0}
-      typeID: 1773428102
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 1325482528
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1937939627
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 1773428102
       customType: 0
       isPPtrCurve: 0
     pptrCurveMapping: []
@@ -141,9 +141,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Weapon Slash/Effects/Heavy Slash/Strong
-    classID: 1773428102
+    attribute: m_IsActive
+    path: Weapon Slash/Effects/Heavy Slash/Strong/Container
+    classID: 1
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -169,9 +169,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Weapon Slash/Effects/Heavy Slash/Strong/Container
-    classID: 1
+    attribute: m_Enabled
+    path: Weapon Slash/Effects/Heavy Slash/Strong
+    classID: 1773428102
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
