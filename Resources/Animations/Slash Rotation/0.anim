@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Light Slash/A
+    path: Weapon Slash/Armature/Light Slash/A
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Light Slash/B
+    path: Weapon Slash/Armature/Light Slash/B
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Light Slash/C
+    path: Weapon Slash/Armature/Light Slash/C
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -126,7 +126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Light Slash/A/Container
+    path: Weapon Slash/Armature/Light Slash/A/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Light Slash/B/Container
+    path: Weapon Slash/Armature/Light Slash/B/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Light Slash/C/Container
+    path: Weapon Slash/Armature/Light Slash/C/Container
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -282,7 +282,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Light Slash/A
+    path: Weapon Slash/Armature/Light Slash/A
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -310,7 +310,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Light Slash/B
+    path: Weapon Slash/Armature/Light Slash/B
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -338,7 +338,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Light Slash/C
+    path: Weapon Slash/Armature/Light Slash/C
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -366,7 +366,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Light Slash/A/Container
+    path: Weapon Slash/Armature/Light Slash/A/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -394,7 +394,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Light Slash/B/Container
+    path: Weapon Slash/Armature/Light Slash/B/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -422,7 +422,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Light Slash/C/Container
+    path: Weapon Slash/Armature/Light Slash/C/Container
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []

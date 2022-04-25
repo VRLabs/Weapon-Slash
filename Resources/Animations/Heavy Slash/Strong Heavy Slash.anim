@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Heavy Slash/Strong
+    path: Weapon Slash/Armature/Heavy Slash/Strong
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Heavy Slash/Strong/Container
+    path: Weapon Slash/Armature/Heavy Slash/Strong/Container
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -142,7 +142,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Effects/Heavy Slash/Strong
+    path: Weapon Slash/Armature/Heavy Slash/Strong
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -170,7 +170,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Effects/Heavy Slash/Strong/Container
+    path: Weapon Slash/Armature/Heavy Slash/Strong/Container
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
