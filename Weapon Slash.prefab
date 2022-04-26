@@ -51724,7 +51724,7 @@ MonoBehaviour:
   - {fileID: 8285637181181628154}
   endpointPosition: {x: 0, y: 1, z: 0}
   multiChildType: 0
-  pull: 0.4
+  pull: 0.5
   pullCurve:
     serializedVersion: 2
     m_Curve: []
@@ -51738,14 +51738,14 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  stiffness: 0
+  stiffness: 0.5
   stiffnessCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0
+  immobile: 0.5
   immobileCurve:
     serializedVersion: 2
     m_Curve: []
