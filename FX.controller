@@ -177,8 +177,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
     m_EventTreshold: 100
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 0
     valueMin: 0
     valueMax: 0
@@ -1051,21 +1051,21 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
-  - m_ConditionMode: 2
-    m_ConditionEvent: WeaponSlash.Remote.Slash
-    m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
     m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
+    m_EventTreshold: 1
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
     m_EventTreshold: 0
+  - m_ConditionMode: 7
+    m_ConditionEvent: WeaponSlash.Status
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5991517265004715736}
   m_Solo: 0
@@ -1460,46 +1460,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &-5256523668377538328
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
-    m_EventTreshold: 3
-  - m_ConditionMode: 2
-    m_ConditionEvent: WeaponSlash.Slash
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: WeaponSlash.Status
-    m_EventTreshold: 2
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy
-    m_EventTreshold: 1
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -4223490018211468244}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 0
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 0
 --- !u!1101 &-5125934415468162926
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1676,8 +1636,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
     m_EventTreshold: 100
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
@@ -2274,7 +2234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 0
     valueMin: 0
     valueMax: 0
@@ -2596,8 +2556,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
-    value: 1
+  - name: WeaponSlash.Heavy.Status
+    value: 4
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -2696,8 +2656,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
-    value: 1
+  - name: WeaponSlash.Heavy.Status
+    value: 3
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -2745,8 +2705,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
     m_EventTreshold: 100
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
@@ -2844,73 +2804,73 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: GestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: IsLocal
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Status
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Slash
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Remote.Slash
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Remote.Idle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Heavy
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: WeaponSlash.Heavy.Idle
-    m_Type: 4
+    m_Controller: {fileID: 0}
+  - m_Name: WeaponSlash.Heavy.Status
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Charge.Level
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Sync
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Weapon Light Rotation
@@ -3058,8 +3018,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
-    value: 1
+  - name: WeaponSlash.Heavy.Status
+    value: 5
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -3133,7 +3093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 0
     valueMin: 0
     valueMax: 0
@@ -3201,8 +3161,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 7
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4223490018211468244}
@@ -8277,7 +8237,6 @@ AnimatorStateMachine:
   m_AnyStateTransitions:
   - {fileID: 3898482734876833948}
   - {fileID: -6270419118058581705}
-  - {fileID: 2363465290944236060}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -8503,7 +8462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 0
     valueMin: 0
     valueMax: 0
@@ -8561,43 +8520,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &2363465290944236060
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
-    m_EventTreshold: 3
-  - m_ConditionMode: 2
-    m_ConditionEvent: WeaponSlash.Slash
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Control
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -5991517265004715736}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 0
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 0
 --- !u!114 &2411234729380658264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8717,18 +8639,15 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
-  - m_ConditionMode: 2
-    m_ConditionEvent: WeaponSlash.Remote.Slash
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Charge.Level
-    m_EventTreshold: 0.5
+  - m_ConditionMode: 6
+    m_ConditionEvent: WeaponSlash.Heavy.Status
+    m_EventTreshold: 6
+  - m_ConditionMode: 7
+    m_ConditionEvent: WeaponSlash.Heavy.Status
+    m_EventTreshold: 1
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
     m_EventTreshold: 0
@@ -8892,8 +8811,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
-    value: 1
+  - name: WeaponSlash.Heavy.Status
+    value: 2
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -9098,23 +9017,17 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
   - m_ConditionMode: 7
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
-  - m_ConditionMode: 2
-    m_ConditionEvent: WeaponSlash.Remote.Slash
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
+  - m_ConditionMode: 3
     m_ConditionEvent: WeaponSlash.Status
-    m_EventTreshold: 2
+    m_EventTreshold: 1
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
     m_EventTreshold: 1
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4223490018211468244}
@@ -9158,43 +9071,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &4141878898040929060
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
-    m_EventTreshold: 3
-  - m_ConditionMode: 2
-    m_ConditionEvent: WeaponSlash.Slash
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: WeaponSlash.Charge.Level
-    m_EventTreshold: 0.5
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Control
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -8184191840663259270}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 0
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 0
 --- !u!1101 &4383786996017349666
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -9288,7 +9164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 0
     valueMin: 0
     valueMax: 0
@@ -9382,8 +9258,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
     m_EventTreshold: 100
-  - m_ConditionMode: 1
-    m_ConditionEvent: WeaponSlash.Heavy.Idle
+  - m_ConditionMode: 3
+    m_ConditionEvent: WeaponSlash.Heavy.Status
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
@@ -9747,8 +9623,8 @@ MonoBehaviour:
     valueMax: 0
     chance: 0
     type: 0
-  - name: WeaponSlash.Heavy.Idle
-    value: 0
+  - name: WeaponSlash.Heavy.Status
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -9852,8 +9728,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
-    value: 1
+  - name: WeaponSlash.Heavy.Status
+    value: 6
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -10318,7 +10194,7 @@ MonoBehaviour:
     valueMax: 0
     chance: 0
     type: 0
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 1
     valueMin: 0
     valueMax: 0
@@ -10459,7 +10335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: WeaponSlash.Heavy.Idle
+  - name: WeaponSlash.Heavy.Status
     value: 0
     valueMin: 0
     valueMax: 0
@@ -10596,8 +10472,6 @@ AnimatorStateMachine:
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 2676967770028010846}
-  - {fileID: 4141878898040929060}
-  - {fileID: -5256523668377538328}
   - {fileID: 3949667682080194594}
   - {fileID: 818937595425920046}
   m_EntryTransitions: []
