@@ -588,7 +588,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966952315810657417}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
@@ -598,7 +598,7 @@ MonoBehaviour:
   ignoreTransforms: []
   endpointPosition: {x: 0, y: 1, z: 0}
   multiChildType: 0
-  pull: 0.5
+  pull: 0
   pullCurve:
     serializedVersion: 2
     m_Curve: []
