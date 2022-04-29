@@ -11,6 +11,10 @@ Perform consecutive slashes with motion.
 
 A polar-limited [PhysBone](https://docs.vrchat.com/docs/physbones) creates an offset for a [Contact](https://docs.vrchat.com/docs/contacts) system to play animations when a slashing motion is done with your arm.
 
+## Preview
+
+https://user-images.githubusercontent.com/45078979/165919653-4f94821d-35aa-4ab8-9812-87bec78197df.mp4
+
 ## Install guide
 
 https://user-images.githubusercontent.com/45078979/165899876-4141201a-99ef-4a0c-98af-d849b3da1792.mp4
