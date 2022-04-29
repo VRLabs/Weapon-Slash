@@ -9,7 +9,7 @@ Perform consecutive slashes with motion.
 
 ## How it works
 
-[PhysBone](https://docs.vrchat.com/docs/physbones) and [Contact](https://docs.vrchat.com/docs/contacts) components start animations when a slashing motion is done with your arm.
+A [PhysBone](https://docs.vrchat.com/docs/physbones) creates an offset for a [contact](https://docs.vrchat.com/docs/contacts) system to play animations when a slashing motion is done with your arm.
 
 ## Install guide
 
