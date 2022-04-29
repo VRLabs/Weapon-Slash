@@ -31,7 +31,7 @@ Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブ�
 
 You can edit "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/PhysBone" to change the difficulty of the slash. For further adjustment you can also change the radius of "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/Receiver".
 
-Under "Armature/(Light or Heavy) Slash" are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
+Under "Weapon Slash/Armature/(Light or Heavy) Slash" are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
 "WeaponSlash.Control" parameter must be true for the system to be active.
 
