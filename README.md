@@ -33,6 +33,8 @@ You can edit "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/PhysBone" t
 
 Under "Armature/(Light or Heavy) Slash" are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
+"WeaponSlash.Control" parameter must be true for the system to be active.
+
 By default, the gesture for activating the Heavy Slash is _fingerpoint_. This is changeable, but there are a lot of transitions to find. Will eventually have a solution which isn't an extra layer, in the form of a setup script.
 
 ## Downloads
