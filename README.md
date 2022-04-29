@@ -19,6 +19,8 @@ https://user-images.githubusercontent.com/45078979/165919653-4f94821d-35aa-4ab8-
 
 https://user-images.githubusercontent.com/45078979/165899876-4141201a-99ef-4a0c-98af-d849b3da1792.mp4
 
+[Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace) is required for the default effect.
+
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
 "WeaponSlash.Control" and "WeaponSlash.Sync" are synced parameters, so click their checkboxes within the tool to add them to your avatar's parameter asset. "WeaponSlash.Control" can optionally not be synced if you are otherwise driving it in a synced manner.
