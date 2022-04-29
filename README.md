@@ -1,19 +1,39 @@
-<div>
-  <h1>Weapon Slash</h1>
-  <p>
-     Perform consecutive slashes with motion.
-  </p>
-  <a href="https://github.com/VRLabs/Weapon-Slash/releases/latest">
-    <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
-  </a>
-  <br />
-</div>
+# Weapon Slash
+  
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Weapon-Slash/total)](https://github.com/VRLabs/Weapon-Slash/releases/latest)
+[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Weapon-Slash/blob/main/LICENSE)  
+
+Perform consecutive slashes with motion.
 
 ## How it works
 
+[Contacts] (https://docs.vrchat.com/docs/contacts) and a [PhysBone](https://docs.vrchat.com/docs/physbones) cooperate to start animations when a slashing motion is done with your arm.
+
 ## Install guide
 
+Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+
+"WeaponSlash.Control" and "WeaponSlash.Sync" are synced parameters, so click their checkboxes within the tool to add them to your avatar's parameter asset.
+ 
+"Weapon Slash.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
+
+Unpack the prefab by right-clicking it.
+
+Place "Weapon Slash" at the base of your avatar.
+
+Within the "Weapon Slash/Armature" hierarchy is the "Upper Arm/Lower Arm/Wrist" series of objects. Each of these objects has a parent constraint with "None" in the list of sources. Use the corresponding arm bones within your avatar's humanoid rig to provide a valid source for each constraint.
+
+Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブソード" with your own prop. Keep your prop in the same placement and facing the same way as the default prop. Put "Weapon Slash/Weapon" under your avatar's wrist hierarchy(Not the "Weapon Slash/Armature/.../Wrist"). Set the "Weapon" object transforms so the prop appears correctly in your hand.
+
 ## How to use
+
+You can edit "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/PhysBone" to change the difficulty of the slash. For further adjustment you can also change the radius of "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/Receiver".
+
+Under "Armature/(Light or Heavy) Slash" are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
+
+By default, the gesture for activating the Heavy Slash is _fingerpoint_. This is changeable, but there are a lot of transitions to find. Will eventually have a solution which isn't an extra layer, in the form of a setup script.
 
 ## Downloads
 
