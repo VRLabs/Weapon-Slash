@@ -1,15 +1,15 @@
 # Weapon Slash
   
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Weapon-Slash/total)](https://github.com/VRLabs/Weapon-Slash/releases/latest)
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Weapon-Slash/blob/main/LICENSE)  
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Weapon-Slash/blob/main/LICENSE)
+[![Test](https://img.shields.io/github/downloads/VRLabs/Weapon-Slash/total)](https://github.com/VRLabs/Weapon-Slash/releases/latest)
 
 Perform consecutive slashes with motion.
 
 ## How it works
 
-[Contacts] (https://docs.vrchat.com/docs/contacts) and a [PhysBone](https://docs.vrchat.com/docs/physbones) cooperate to start animations when a slashing motion is done with your arm.
+[Contacts](https://docs.vrchat.com/docs/contacts) and a [PhysBone](https://docs.vrchat.com/docs/physbones) cooperate to start animations when a slashing motion is done with your arm.
 
 ## Install guide
 
