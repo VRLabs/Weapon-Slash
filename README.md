@@ -9,7 +9,7 @@ Perform consecutive slashes with motion.
 
 ## How it works
 
-[Contacts](https://docs.vrchat.com/docs/contacts) and a [PhysBone](https://docs.vrchat.com/docs/physbones) cooperate to start animations when a slashing motion is done with your arm.
+[PhysBone](https://docs.vrchat.com/docs/physbones) and [Contact](https://docs.vrchat.com/docs/contacts) components start animations when a slashing motion is done with your arm.
 
 ## Install guide
 
@@ -33,7 +33,7 @@ Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブ�
 
 You can edit "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/PhysBone" to change the difficulty of the slash. For further adjustment you can also change the radius of "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/Receiver".
 
-Under "Weapon Slash/Armature/(Light or Heavy) Slash" are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
+Under the "Weapon Slash/Armature/(Light or Heavy) Slash" hierarchy are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
 "WeaponSlash.Control" parameter must be true for the system to be active.
 
