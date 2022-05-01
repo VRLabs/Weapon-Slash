@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/45078979/165899876-4141201a-99ef-4a0c-
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
-"WeaponSlash.Sync" is a synced parameter, so click the checkbox within the tool to add them to your avatar's parameter asset.
+"WeaponSlash.Sync" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
  
 "Weapon Slash.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
