@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/45078979/165899876-4141201a-99ef-4a0c-
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
-"WeaponSlash.Control" and "WeaponSlash.Sync" are synced parameters, so click their checkboxes within the tool to add them to your avatar's parameter asset. "WeaponSlash.Control" can optionally not be synced if you are otherwise driving it in a synced manner.
+"WeaponSlash.Sync" is a synced parameter, so click the checkbox within the tool to add them to your avatar's parameter asset.
  
 "Weapon Slash.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
@@ -41,7 +41,7 @@ You can edit "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/PhysBone" t
 
 Under the "Weapon Slash/Armature/(Light or Heavy) Slash" hierarchy are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
-"WeaponSlash.Control" parameter must be true for the system to be active.
+*"WeaponSlash.Control" parameter must be true for the system to be active.*
 
 By default, the gesture for activating the Heavy Slash is _fingerpoint_. This is changeable, but there are a lot of transitions to find. Will eventually have a solution which isn't an extra layer, in the form of a setup script.
 
