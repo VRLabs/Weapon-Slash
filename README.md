@@ -9,7 +9,7 @@ Perform consecutive slashes with motion.
 
 ## How it works
 
-A polar-limited [PhysBone](https://docs.vrchat.com/docs/physbones) creates an offset for a [Contact](https://docs.vrchat.com/docs/contacts) system to play animations when a slashing motion is done with your arm.
+A polar-limited [PhysBone](https://docs.vrchat.com/docs/physbones) creates an offset for a [Contact](https://docs.vrchat.com/docs/contacts) system to play animations when a slashing motion is done with your arm. A networking layer animates a separate PhysBone hierarchy to account for "IK Smoothing".
 
 ## Preview
 
@@ -31,9 +31,7 @@ Unpack the prefab by right-clicking it.
 
 Place "Weapon Slash" at the base of your avatar.
 
-Within the "Weapon Slash/Armature" hierarchy is the "Upper Arm/Lower Arm/Wrist" series of objects. Each of these objects has a parent constraint with "None" in the list of sources. Use the corresponding arm bones within your avatar's humanoid rig to provide a valid source for each constraint.
-
-Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブソード" with your own prop. Keep your prop in the same placement and facing the same way as the default prop. Put "Weapon Slash/Weapon" under your avatar's wrist hierarchy(Not the "Weapon Slash/Armature/.../Wrist"). Set the "Weapon" object transforms so the prop appears correctly in your hand.
+Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブソード" with your own prop. Keep your prop in the same placement and facing the same way as the default prop. Put "Weapon Slash/Weapon" under your avatar's wrist hierarchy(Not the "Weapon Slash/Effects/.../Wrist"). Set the "Weapon" object transforms so the prop appears correctly in your hand.
 
 ## How to use
 
@@ -41,9 +39,9 @@ Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブ�
 
 By default, the gesture for activating the Heavy Slash is _fingerpoint_. This is changeable, but there are a lot of transitions to find. Will eventually have a solution which isn't an extra layer, in the form of a setup script.
 
-Under the "Weapon Slash/Armature/(Light or Heavy) Slash" hierarchy are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
+Under the "Weapon Slash/Effects/(Light or Heavy) Slash" hierarchy are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
-You can edit "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/PhysBone" to change the difficulty of the slash. For further adjustment you can also change the radius of "Weapon Slash/Armature/Upper Arm/Lower Arm/Wrist/Weapon/Receiver".
+You can edit "Weapon Slash/Dynamics/PhysBone" to change the difficulty of the slash. For further adjustment you can also change the radius of "Weapon Slash/Dynamics/Receiver".
 
 ## Downloads
 

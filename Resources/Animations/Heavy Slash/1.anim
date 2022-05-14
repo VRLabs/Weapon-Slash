@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Heavy Slash/Weak/A
+    path: Weapon Slash/Effects/Heavy Slash/Weak/A
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Heavy Slash/Weak/B
+    path: Weapon Slash/Effects/Heavy Slash/Weak/B
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Heavy Slash/Weak/C
+    path: Weapon Slash/Effects/Heavy Slash/Weak/C
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -126,7 +126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Armature/Heavy Slash/Weak/A/Container
+    path: Weapon Slash/Effects/Heavy Slash/Weak/A/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Armature/Heavy Slash/Weak/B/Container
+    path: Weapon Slash/Effects/Heavy Slash/Weak/B/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Armature/Heavy Slash/Weak/C/Container
+    path: Weapon Slash/Effects/Heavy Slash/Weak/C/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -317,7 +317,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Heavy Slash/Weak/A
+    path: Weapon Slash/Effects/Heavy Slash/Weak/A
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -345,7 +345,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Heavy Slash/Weak/B
+    path: Weapon Slash/Effects/Heavy Slash/Weak/B
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -373,7 +373,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Weapon Slash/Armature/Heavy Slash/Weak/C
+    path: Weapon Slash/Effects/Heavy Slash/Weak/C
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -401,7 +401,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Armature/Heavy Slash/Weak/A/Container
+    path: Weapon Slash/Effects/Heavy Slash/Weak/A/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -429,7 +429,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Armature/Heavy Slash/Weak/B/Container
+    path: Weapon Slash/Effects/Heavy Slash/Weak/B/Container
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -457,7 +457,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Weapon Slash/Armature/Heavy Slash/Weak/C/Container
+    path: Weapon Slash/Effects/Heavy Slash/Weak/C/Container
     classID: 1
     script: {fileID: 0}
   - curve:
