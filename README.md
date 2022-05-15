@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/45078979/165919653-4f94821d-35aa-4ab8-
 
 ## Install guide
 
-https://user-images.githubusercontent.com/45078979/165899876-4141201a-99ef-4a0c-98af-d849b3da1792.mp4
+https://user-images.githubusercontent.com/45078979/168454350-9d464c18-1a8b-4847-b4e1-bd586d239c3e.mp4
 
 [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace) is required for the default effect.
 
