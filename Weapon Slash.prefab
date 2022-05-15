@@ -650,22 +650,22 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   colliders: []
-  limitType: 3
-  maxAngleX: 45
+  limitType: 0
+  maxAngleX: 0
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxAngleZ: 5
+  maxAngleZ: 0
   maxAngleZCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  limitRotation: {x: 45, y: 90, z: 0}
+  limitRotation: {x: 0, y: 0, z: 0}
   limitRotationXCurve:
     serializedVersion: 2
     m_Curve: []
