@@ -31,7 +31,7 @@ Unpack the prefab by right-clicking it.
 
 Place "Weapon Slash" at the base of your avatar.
 
-Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブソード" with your own prop. Keep your prop in the same placement and facing the same way as the default prop. Put "Weapon Slash/Weapon" under your avatar's wrist hierarchy(Not the "Weapon Slash/Effects/.../Wrist"). Set the "Weapon" object transforms so the prop appears correctly in your hand.
+Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブソード" with your own prop. Keep your prop in the same placement and facing the same way as the default prop. Put "Weapon Slash/Weapon" under your avatar's wrist. Set the "Weapon" object transforms so the prop appears correctly in your hand.
 
 ## How to use
 
