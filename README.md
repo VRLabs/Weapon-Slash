@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/45078979/168454350-9d464c18-1a8b-4847-
 
 [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace) is required for the default effect.
 
-Use the latest VRChat SDK to support the PhysBone settings used in this prefab.
+Use the latest [VRChat SDK](https://vrchat.com/home/download) to support the PhysBone settings used in this prefab.
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
