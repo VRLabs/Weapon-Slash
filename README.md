@@ -21,6 +21,8 @@ https://user-images.githubusercontent.com/45078979/168454350-9d464c18-1a8b-4847-
 
 [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace) is required for the default effect.
 
+Make sure you are using the latest VRChat SDK to support the PhysBone setting used in this prefab.
+
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
 "WeaponSlash.Sync" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
