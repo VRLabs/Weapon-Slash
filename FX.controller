@@ -11,8 +11,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
@@ -78,8 +78,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
@@ -170,8 +170,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -945,8 +945,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 3
     m_ConditionEvent: WeaponSlash.Status
@@ -1323,8 +1323,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 6
     m_ConditionEvent: WeaponSlash.Heavy.Status
@@ -1584,8 +1584,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1310898264078166742}
@@ -1915,8 +1915,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Heavy
@@ -1983,8 +1983,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
@@ -2192,8 +2192,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -2376,78 +2376,72 @@ AnimatorController:
   m_Name: FX
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: GestureLeft
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: GestureRight
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: IsLocal
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Status
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Slash
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Remote.Slash
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Remote.Idle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Heavy
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: WeaponSlash.Heavy.Active
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Heavy.Status
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Charge.Level
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: WeaponSlash.Sync
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Weapon Light Rotation
@@ -2682,8 +2676,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
@@ -2861,8 +2855,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 1
     m_ConditionEvent: WeaponSlash.Control
@@ -3170,8 +3164,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 3
     m_ConditionEvent: WeaponSlash.Status
@@ -3232,8 +3226,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1310898264078166742}
@@ -3586,8 +3580,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -3678,8 +3672,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -3718,8 +3712,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -3789,8 +3783,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
@@ -3904,8 +3898,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 7
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 2
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 3
     m_ConditionEvent: WeaponSlash.Heavy.Status
@@ -3988,8 +3982,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -4192,8 +4186,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
@@ -4339,8 +4333,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Remote.Slash
@@ -4522,8 +4516,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeaponSlash.Heavy.Active
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: WeaponSlash.Slash
