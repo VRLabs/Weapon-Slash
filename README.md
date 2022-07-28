@@ -41,7 +41,7 @@ Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブ�
 
 **""WeaponSlash.Heavy.Active"" parameter must be True for the Heavy Slash to be enabled.**
 
-Use the parameter driver to set the "WeaponSlash.Heavy.Active" to True in your dominant hand gesture layer. Set the value to False on other gestures within that layer. Holding the value at True will activate the Strong Heavy Slash effect.
+Use the parameter driver to set the "WeaponSlash.Heavy.Active" to True in your dominant hand gesture layer. Set the value to False on other gestures within that layer. Holding the value at True will enable the Strong Heavy Slash effect.
 
 Under the "Weapon Slash/Effects/(Light or Heavy) Slash" hierarchy are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
