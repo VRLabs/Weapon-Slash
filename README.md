@@ -39,7 +39,7 @@ Locate "Weapon Slash/Weapon". You can replace "Weapon Slash/Weapon/キューブ�
 
 **"WeaponSlash.Control" parameter must be true for the system to be active.**
 
-By default, the gesture for activating the Heavy Slash is _fingerpoint_. This is changeable, but there are a lot of transitions to find. Will eventually have a solution which isn't an extra layer, in the form of a setup script.
+The parameter for activating the Heavy Slash is "WeaponSlash.Heavy.Active". Use parameter driver in your hand layers to set this parameter. Set the value to True to activate Heavy Slash effects on a particular gesture. Set it to False on other gestures. Holding the value at True will activate the Strong Heavy Slash effect.
 
 Under the "Weapon Slash/Effects/(Light or Heavy) Slash" hierarchy are Containers. Place custom effects within these Containers. "Weapon/(Light or Heavy) Effect Target" is where these effects will appear.
 
