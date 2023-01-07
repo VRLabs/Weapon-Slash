@@ -57248,7 +57248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8285637181181628154
 Transform:
   m_ObjectHideFlags: 0
@@ -57286,7 +57286,7 @@ MonoBehaviour:
   - WeaponSlash
   allowSelf: 1
   allowOthers: 0
-  localOnly: 0
+  localOnly: 1
   receiverType: 0
   parameter: WeaponSlash.Slash
   minVelocity: 0.05
