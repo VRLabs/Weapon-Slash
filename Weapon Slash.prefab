@@ -593,6 +593,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -642,6 +651,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 0
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -685,7 +697,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0
   maxStretch: 0
   maxStretchCurve:
@@ -694,7 +713,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -52005,6 +52039,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -52054,6 +52097,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 0
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -52097,7 +52143,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0
   maxStretch: 0
   maxStretchCurve:
@@ -52106,7 +52159,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: WeaponSlash
   showGizmos: 1
   boneOpacity: 0.5
@@ -57286,7 +57354,7 @@ MonoBehaviour:
   - WeaponSlash
   allowSelf: 1
   allowOthers: 0
-  localOnly: 1
+  localOnly: 0
   receiverType: 0
   parameter: WeaponSlash.Slash
   minVelocity: 0.05
