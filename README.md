@@ -22,35 +22,36 @@ A movement based weapon effect trigger system
 </div>
 
 ---
+
 ## How it works
 
-A polar-limited [PhysBone](https://docs.vrchat.com/docs/physbones) creates an offset for a [Contact](https://docs.vrchat.com/docs/contacts) system to play animations when a slashing motion is done with your arm. A networking layer animates a separate PhysBone hierarchy to account for "IK Smoothing".
+* A polar-limited [PhysBone](https://docs.vrchat.com/docs/physbones) creates an offset for a [Contact](https://docs.vrchat.com/docs/contacts) system to play animations when a slashing motion is done with your arm.
+* A networking layer animates a separate PhysBone hierarchy to account for [IK](https://en.wikipedia.org/wiki/Inverse_kinematics) smoothing.
 
 ## Install guide
 
-https://user-images.githubusercontent.com/45078979/168454350-9d464c18-1a8b-4847-b4e1-bd586d239c3e.mp4
-
-* [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace) is required for the default effect.
+* Download and import [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace).
 * Merge the Animator Controller ``Weapon Slash FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
-* Drag & drop the ``Weapon Slash FX`` prefab into the base of your Hierarchy.
+* Drag & drop the ``Weapon Slash`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
-* ``WeaponSlash.Sync`` is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
-* Locate ``Weapon Slash/Weapon``.
-  * You can replace ``Weapon Slash/Weapon/キューブソード`` with your own prop. Keep your prop in the same placement and facing the same way as the default prop.
-* Put ``Weapon Slash/Weapon`` under your avatar's wrist. Set the ``Weapon`` object transforms so the prop appears correctly in your hand.
+* Expand the prefab hierarchy and find ``Weapon Slash`` -> ``Weapon``
+* Move ``Weapon`` outside of ``Weapon Slash`` and place it on the left or right wrist of your avatar.
+  * Adjust the position and rotation of ``Weapon`` to fit into your hand.
+  * You can replace ``Weapon`` -> ``キューブソード`` with your own prop. Keep your prop in the same placement and facing the same way as the default prop.
+* Add ``WeaponSlash/Sync`` to your avatars VRChat parameter list.
 
 ## How to use
 
-* ``WeaponSlash.Control`` parameter must be True for the system to be active.
-* ``WeaponSlash.Heavy.Active`` parameter must be True for the Heavy Slash to be enabled.
-* Use the parameter driver to set the ``WeaponSlash.Heavy.Active`` to True in your dominant hand gesture layer. Set the value to False on other gestures within that layer. Holding the value at True will enable the Strong Heavy Slash effect.
+* ``WeaponSlash/Control`` parameter must be True for the system to be active.
+* ``WeaponSlash/HeavyActive`` parameter must be True for the Heavy Slash to be enabled.
+* Use the parameter driver to set the ``WeaponSlash/HeavyActive`` to True in your dominant hand gesture layer. Set the value to False on other gestures within that layer. Holding the value at True will enable the Strong Heavy Slash effect.
 * Under the ``Weapon Slash/Effects/(Light or Heavy) Slash`` hierarchy are Containers. Place custom effects within these Containers. ``Weapon/(Light or Heavy) Effect Target`` is where these effects will appear.
-
-You can edit ``Weapon Slash/Dynamics/PhysBone`` to change the force required for the slash. For further adjustment you can also change the radius of ``Weapon Slash/Dynamics/Receiver``.
+* You can edit ``Weapon Slash/Dynamics/PhysBone`` to change the force required for the slash. For further adjustment you can also change the radius of ``Weapon Slash/Dynamics/Receiver``.
 
 ## Performance stats
 
 System:
+
 ```c++
 Constraints:        12
 Contact Receivers:  2
@@ -60,12 +61,14 @@ Phys Bones:         2
 ```
 
 Default Weapon:
+
 ```c++
 Material slots:     2
 Mesh Renderers:     2
 ```
 
 Default Effects:
+
 ```c++
 Audio Sources:      7
 Particle Systems:   11
@@ -128,7 +131,6 @@ Weapon Slash
 ## Contributors
 
 * [lin](https://github.com/oofdesu)
-
 
 ## License
 
