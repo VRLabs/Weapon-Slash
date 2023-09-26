@@ -34,19 +34,18 @@ https://github.com/VRLabs/Weapon-Slash/assets/76777936/00d1104c-0f4c-4ea4-bd2c-1
 
 * Download and import [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace).
 * Merge the Animator Controller ``Weapon Slash FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Merge the Expression Parameter List``Weapon Slash Expressions```to your own Expression Parameter List, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Weapon Slash`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
 * Expand the prefab hierarchy and find ``Weapon Slash`` -> ``Weapon``
 * Move ``Weapon`` outside of ``Weapon Slash`` and place it on the left or right wrist of your avatar.
   * Adjust the position and rotation of ``Weapon`` to fit into your hand.
   * You can replace ``Weapon`` -> ``キューブソード`` with your own prop. Keep your prop in the same placement and facing the same way as the default prop.
-* Add ``WeaponSlash/Sync`` to your avatars VRChat parameter list.
 
 ## How to use
 
 * ``WeaponSlash/Control`` parameter must be True for the system to be active.
 * ``WeaponSlash/HeavyActive`` parameter must be True for the Heavy Slash to be enabled.
-* Use the parameter driver to set the ``WeaponSlash/HeavyActive`` to True in your dominant hand gesture layer. Set the value to False on other gestures within that layer. Holding the value at True will enable the Strong Heavy Slash effect.
 * Under the ``Weapon Slash/Effects/(Light or Heavy) Slash`` hierarchy are Containers. Place custom effects within these Containers. ``Weapon/(Light or Heavy) Effect Target`` is where these effects will appear.
 * You can edit ``Weapon Slash/Dynamics/PhysBone`` to change the force required for the slash. For further adjustment you can also change the radius of ``Weapon Slash/Dynamics/Receiver``.
 
@@ -59,6 +58,7 @@ Constraints:        12
 Contact Receivers:  2
 Contact Senders:    2
 FX Animator Layers: 4
+Parameter Memory:   3 
 Phys Bones:         2
 ```
 
