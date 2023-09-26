@@ -30,7 +30,8 @@ A movement based weapon effect trigger system
 
 ## Install guide
 
-https://github.com/VRLabs/Weapon-Slash/assets/76777936/00d1104c-0f4c-4ea4-bd2c-13ebf0d0be34
+
+https://github.com/VRLabs/Weapon-Slash/assets/76777936/129c37e9-101d-4a30-854e-00c03a01016c
 
 * Download and import [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace).
 * Merge the Animator Controller ``Weapon Slash FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
