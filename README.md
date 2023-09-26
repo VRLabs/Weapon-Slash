@@ -35,7 +35,7 @@ https://github.com/VRLabs/Weapon-Slash/assets/76777936/129c37e9-101d-4a30-854e-0
 
 * Download and import [Cancerspace shader](https://github.com/AkaiMage/VRC-Cancerspace).
 * Merge the Animator Controller ``Weapon Slash FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
-* Merge the Expression Parameter List ``Weapon Slash Expressions``` to your own Expression Parameter List, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Merge the Expression Parameter List ``Weapon Slash Parameters`` to your own Expression Parameter List, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Weapon Slash`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
 * Expand the prefab hierarchy and find ``Weapon Slash`` -> ``Weapon``
