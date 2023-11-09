@@ -12,7 +12,7 @@
 
 A movement based weapon effect trigger system
 
-![WeaponSlash](https://github.com/VRLabs/Weapon-Slash/assets/76777936/5987ab79-67a2-4106-a06a-ec15dd653a2a)
+![WeaponSlash](https://github.com/VRLabs/Weapon-Slash/assets/76777936/3af6bb47-01c3-48b1-aff6-a69583d8887d)
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Weapon-Slash/releases/latest)
 
