@@ -153,4 +153,3 @@ Weapon Slash is available as-is under MIT. For more information see [LICENSE](ht
 
 </div>
 
----
