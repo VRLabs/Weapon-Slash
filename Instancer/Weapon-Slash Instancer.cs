@@ -18,7 +18,7 @@ namespace VRLabs.WeaponSlash
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Weapon Slash")]
+		[MenuItem("VRLabs/Create Instance/Weapon Slash")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
