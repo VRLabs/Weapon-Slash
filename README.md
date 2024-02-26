@@ -16,8 +16,8 @@ A movement based weapon effect trigger system
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Weapon-Slash/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.weapon-slash)
 
 </div>
 
