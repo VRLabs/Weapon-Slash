@@ -4,7 +4,8 @@
 
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Weapon-Slash/total?label=Downloads)](https://github.com/VRLabs/Weapon-Slash/releases/latest)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Weapon-Slash/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/Quest-Partial%20Compatible-yellow?logo=Meta)](https://img.shields.io/badge/Quest-Partial%20Compatible-yellow?logo=Meta)
+[![Generic badge](https://img.shields.io/badge/Unity-2022.3.22f1-lightblue?logo=Unity)](https://unity.com/releases/editor/whats-new/2022.3.22)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
 
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
@@ -15,7 +16,6 @@ A movement based weapon effect trigger system
 ![WeaponSlash](https://github.com/VRLabs/Weapon-Slash/assets/76777936/3af6bb47-01c3-48b1-aff6-a69583d8887d)
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Weapon-Slash/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.weapon-slash)
 
@@ -29,7 +29,6 @@ A movement based weapon effect trigger system
 * A networking layer animates a separate PhysBone hierarchy to account for [IK](https://en.wikipedia.org/wiki/Inverse_kinematics) smoothing.
 
 ## Install guide
-
 
 https://github.com/VRLabs/Weapon-Slash/assets/76777936/129c37e9-101d-4a30-854e-00c03a01016c
 
@@ -56,6 +55,7 @@ System:
 
 ```c++
 Constraints:        12
+Constraint Depth:   5
 Contact Receivers:  2
 Contact Senders:    2
 FX Animator Layers: 4
@@ -152,4 +152,3 @@ Weapon Slash is available as-is under MIT. For more information see [LICENSE](ht
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
