@@ -3,7 +3,7 @@
   "displayName": "Weapon Slash",
   "version": "1.2.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "A movement based weapon effect trigger system",
   "author": {
     "name": "VRLabs",
@@ -26,5 +26,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Weapon Slash": "7f0d08422f8f34538b0bb5273396366d"
-  }
+  },
+  "questCompatibility": "partial"
 }
