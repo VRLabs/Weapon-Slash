@@ -42,6 +42,9 @@ https://github.com/VRLabs/Weapon-Slash/assets/76777936/129c37e9-101d-4a30-854e-0
   * Adjust the position and rotation of ``Weapon`` to fit into your hand.
   * You can replace ``Weapon`` -> ``キューブソード`` with your own prop. Keep your prop in the same placement and facing the same way as the default prop.
 
+> [!NOTE]  
+> When building for Quest, you will have to remove unsupported components and shaders. The particle systems provided in the package rely on shaders not supported by VRChat, so you will have to create your own effects.
+
 ## How to use
 
 * ``WeaponSlash/Control`` parameter must be True for the system to be active.
