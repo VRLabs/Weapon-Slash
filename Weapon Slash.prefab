@@ -58,100 +58,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -251,100 +236,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -411,100 +381,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -719,7 +674,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900126119939536297}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000035762784, y: -0.0000000372529, z: 0.00000009685753, w: -1}
+  m_LocalRotation: {x: -0.00000035762784, y: -0.0000000372529, z: 0.00000009685753,
+    w: -1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -744,11 +700,11 @@ MonoBehaviour:
   height: 1
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
   collisionTags:
   - WeaponSlash/RemoteSlash
   allowSelf: 1
   allowOthers: 0
-  localOnly: 0
   receiverType: 0
   parameter: WeaponSlash/RemoteSlash
   minVelocity: 0.05
@@ -810,6 +766,7 @@ MonoBehaviour:
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 1, z: 0}
   multiChildType: 0
   pull: 0
@@ -956,6 +913,7 @@ MonoBehaviour:
   height: 1
   position: {x: 0, y: 0.51, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
   collisionTags:
   - WeaponSlash/RemoteSlash
 --- !u!114 &8705674035637382710
@@ -983,100 +941,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: -1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -6223,100 +6166,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -26165,100 +26093,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -26325,100 +26238,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -37119,100 +37017,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -52014,6 +51897,7 @@ MonoBehaviour:
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 1, z: 0}
   multiChildType: 0
   pull: 0.5
@@ -52160,6 +52044,7 @@ MonoBehaviour:
   height: 1
   position: {x: 0, y: 0.51, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
   collisionTags:
   - WeaponSlash/Slash
 --- !u!114 &5744742155303120853
@@ -52187,100 +52072,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 2
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -57428,7 +57298,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8285637181181628101}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000037252894, y: -0.00000006705521, z: 0.00000013411042, w: -1}
+  m_LocalRotation: {x: -0.00000037252894, y: -0.00000006705521, z: 0.00000013411042,
+    w: -1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -57453,11 +57324,11 @@ MonoBehaviour:
   height: 1
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
   collisionTags:
   - WeaponSlash/Slash
   allowSelf: 1
   allowOthers: 0
-  localOnly: 0
   receiverType: 0
   parameter: WeaponSlash/Slash
   minVelocity: 0.05
@@ -57504,8 +57375,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 700296434613174096}
-  - component: {fileID: 3634671561544669959}
-  - component: {fileID: 2980159708276346718}
   - component: {fileID: 9123599601955395331}
   - component: {fileID: 6367762139754077419}
   m_Layer: 0
@@ -57533,135 +57402,6 @@ Transform:
   - {fileID: 6486767300622885908}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &3634671561544669959
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8665136522964127463}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: Infinity
-  m_AngularDrag: Infinity
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 2
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!153 &2980159708276346718
-ConfigurableJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8665136522964127463}
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 0, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  serializedVersion: 3
-  m_SecondaryAxis: {x: 0, y: 0, z: 0}
-  m_XMotion: 0
-  m_YMotion: 0
-  m_ZMotion: 0
-  m_AngularXMotion: 0
-  m_AngularYMotion: 0
-  m_AngularZMotion: 0
-  m_LinearLimitSpring:
-    spring: 0
-    damper: 0
-  m_LinearLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularXLimitSpring:
-    spring: 0
-    damper: 0
-  m_LowAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_HighAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularYZLimitSpring:
-    spring: 0
-    damper: 0
-  m_AngularYLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularZLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_TargetPosition: {x: 0, y: 0, z: 0}
-  m_TargetVelocity: {x: 0, y: 0, z: 0}
-  m_XDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_YDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_ZDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
-  m_RotationDriveMode: 0
-  m_AngularXDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_AngularYZDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_SlerpDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
-  m_ProjectionAngle: 180
-  m_ConfiguredInWorldSpace: 0
-  m_SwapBodies: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!114 &9123599601955395331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57683,104 +57423,90 @@ MonoBehaviour:
   Locked: 1
   Sources:
     source0:
-      SourceTransform: {fileID: 1720321125886419532, guid: 9e56eedc8fc5faf419b72e6abe6b67bc, type: 3}
+      SourceTransform: {fileID: 1720321125886419532, guid: 9e56eedc8fc5faf419b72e6abe6b67bc,
+        type: 3}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 0
+  latestValidExecutionGroupIndex: -1
   ScaleAtRest: {x: 1, y: 1, z: 1}
   ScaleOffset: {x: 1, y: 1, z: 1}
   AffectsScaleX: 1
@@ -57807,104 +57533,90 @@ MonoBehaviour:
   Locked: 1
   Sources:
     source0:
-      SourceTransform: {fileID: 1720321125886419532, guid: 9e56eedc8fc5faf419b72e6abe6b67bc, type: 3}
+      SourceTransform: {fileID: 1720321125886419532, guid: 9e56eedc8fc5faf419b72e6abe6b67bc,
+        type: 3}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 0
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -57973,100 +57685,85 @@ MonoBehaviour:
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source1:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source2:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source3:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source4:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source5:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source6:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source7:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source8:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source9:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source10:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source11:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source12:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source13:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source14:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     source15:
       SourceTransform: {fileID: 0}
       Weight: 1
       ParentPositionOffset: {x: 0, y: 0, z: 0}
       ParentRotationOffset: {x: 0, y: 0, z: 0}
-      _defaultsApplied: 1
     totalLength: 1
     overflowList: []
   cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: -1
   PositionAtRest: {x: -0.030900333, y: 0.06950048, z: -0.0111003015}
   AffectsPositionX: 1
   AffectsPositionY: 1
